@@ -141,6 +141,7 @@ body {
 }
 
 .banner {
+	margin: 0 auto;
 	background-color: var(--bgd-accent);
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/banner.jpg');
 	background-repeat: no-repeat;
@@ -407,7 +408,7 @@ body {
 }
 
 .join-us {
-	margin: 0 0 0 70px;
+	margin: 12px 0 0 70px;
 }
 
 .join-us-title {
@@ -477,6 +478,7 @@ body {
 .portfolio-buttons-list-item button:active {
 	background-color: var(--accent);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	color: var(--white);
 }
 
 .portfolio-active-btn {
